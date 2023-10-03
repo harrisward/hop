@@ -52,7 +52,7 @@ The Snowflake Bulk Loader transform utilizes the Snowflake Copy command to load 
 - **Staging location type**: The type of Snowflake stage to use to store the files.
 * **User Location**: Uses the user's home directory to store the files being loaded.
 * **Table Location**: Uses the table's internal stage to store the files being loaded.
-* **Internal Stage**: Use an already created internal stage tos tore the files being loaded.
+* **Internal Stage**: Use an already created internal stage to store the files being loaded.
 - **Internal Stage Name**: (When Staging location type = Internal stage) The name of the internal stage to use.
 - **Work directory**: The local work directory to store temporary files before they are loaded to snowflake.
 - **On Error**: (Abort, Skip File, Skip File Percent, Continue) The behavior when errors are encountered on a load.
